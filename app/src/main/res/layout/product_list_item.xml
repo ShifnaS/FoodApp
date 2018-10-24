@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal">
+
+
+
+    <LinearLayout
+        android:id="@+id/view_foreground"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginRight="16dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/thumbnail"
+            android:text="@string/app_name"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/thumbnail"
+            android:text="description"
+            android:textColor="@color/black"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description"
+            android:layout_toRightOf="@id/thumbnail"
+            android:text="150"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_gravity="center_horizontal|bottom"
+        android:id="@+id/add"
+        android:layout_width="0dp"
+        android:layout_weight="0.3"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/price"
+        android:layout_alignLeft="@id/price"
+        android:layout_toRightOf="@id/price"
+        android:text="150"
+        android:background="@drawable/buttonbacklist"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold" />
+</LinearLayout>

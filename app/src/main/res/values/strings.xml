@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Food App</string>
+    <string name="singup">SINGUP</string>
+    <string name="login">LOGIN</string>
+    <string name="error_connection">Check your connection and try again.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_food">FOOD</string>
+    <string name="title_beverage">BEVERAGE</string>
+    <string name="title_cart">CART</string>
+    <string name="title_history">HISTORY</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+    <string name="email_error">Please enter your email</string>
+    <string name="password_error">Please enter a password</string>
+    <string name="phone_error">Please enter a phone no</string>
+
+</resources>
